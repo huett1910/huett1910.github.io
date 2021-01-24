@@ -1,0 +1,80 @@
+#main {
+    display: flex;
+}
+
+h3 , p {
+    margin: 0px;
+}
+ul li {
+    margin-bottom: 5px;
+}
+
+.left-section {
+    width: 30%;
+    background:#c0d4f4;
+}
+.bg-blue{
+    background:#0066ff75;
+    text-align: center;
+    color: white;
+    padding: 20px 0px 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.text-uppercase {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.information dd {
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+
+.information dt {
+    font-weight: 900;
+    font-size: 17px;
+}
+.bg-blue02{
+    background:#c0d4f4;
+    padding: 10px 20px;
+}
+
+.list-key-strength
+{
+    padding-left: 12px;
+}
+
+.margin-top{
+    margin-top: 10px;
+}
+.list-references {
+    padding-left: 10px;
+}
+/* This is right-section */
+
+.right-section {
+    width: 70%;
+    background-color:rgb(243, 235, 219);
+    padding: 20px;
+}
+.company-name {
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.title {
+    color:rgb(64, 133, 224)
+}
+
+@media screen and (max-width: 768px){
+    #main{
+        flex-wrap: wrap;
+    }
+    .right-section,.left-section{
+        width: 100%;
+    }
+}
